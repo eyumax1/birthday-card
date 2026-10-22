@@ -1,0 +1,89 @@
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 4px solid hsl(272, 83%, 59%);
+}
+body {
+  text-align: center;
+  background:linear-gradient(hsl(203, 50%, 48%),hsl(251, 54%, 33%));
+  color: white;
+  font-family: "Happy Monkey", system-ui;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.5);
+}
+.day {
+  background-color: hsl(272, 83%, 59%);
+  padding: 4px 5px;
+  border-radius: 8px;
+  margin: 6px 0 10px 0;
+}
+.date {
+  background-color: hsl(272, 83%, 59%);
+  padding: 4px 5px;
+  border-radius: 8px;
+  margin: 0;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gift-image {
+  width: 400px;
+  height: 400px;
+  border: 4px solid white;
+  border-radius: 10px;
+  background-image: url("gift\ cover.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+.gift-image:hover {
+  background-image: url("gif.gif");
+}
+.gift {
+  margin: 40px 0 0 0;
+}
+.gift-hint {
+  margin-top: 0;
+}
+.gift-image2 {
+  width: 400px;
+  height: 400px;
+  border: 4px solid white;
+  border-radius: 10px;
+  background-image: url("gift\ cover.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+.gift-image2:hover {
+  background-image: url("clap.gif");
+}
+.gift-image3 {
+  width: 400px;
+  height: 400px;
+  border: 4px solid white;
+  border-radius: 10px;
+  background-image: url("gift\ cover.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+.gift-image3:hover {
+  background-image: url("idiot.gif");
+}
+.gift-image4 {
+  width: 400px;
+  height: 400px;
+  border: 4px solid white;
+  border-radius: 10px;
+  background-image: url("gift\ cover.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+.gift-image4:hover {
+  background-image: url("jamesbond.gif");
+}
